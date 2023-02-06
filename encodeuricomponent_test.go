@@ -129,6 +129,10 @@ func TestEncodeURIComponent(t *testing.T) {
 			"💩",
 			"%F0%9F%92%A9",
 		},
+		{
+			"шеллы",
+			"%D1%88%D0%B5%D0%BB%D0%BB%D1%8B",
+		},
 		// FIXME > high-low surrogate pair is okay
 		// {
 		//  string([]rune{0xD800, 0xDFFF}),

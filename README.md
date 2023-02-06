@@ -1,6 +1,6 @@
 # go-encodeuricomponent
 
-A little library that replicates the behavior of the `encodeURIComponent` JavaScript function.
+> A library that replicates the behavior of the `encodeURIComponent` JavaScript function
 
 ##### Notice
 
